@@ -1,6 +1,5 @@
 Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Burst.Unsafe.dll_A6AA531698E07F75.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.Graphs.dll_65ED7CA016BAC907.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.CoreModule.dll_BFA5186572DA53D5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.DeviceSimulatorModule.dll_9E369F9348E934FC.mvfrm
@@ -92,3 +91,4 @@ Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.dll_8FEE3BD3E9029C0B.mvf
 Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Xcode.dll_CB517C0B91FE2EF2.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WebGL.Extensions.dll_EB8580779F859CAB.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_C73E20D3CE90081B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Unsafe.dll_DC72E8F8E143CFFC.mvfrm
