@@ -1,0 +1,42 @@
+[
+	{
+		"file": "E:\\VFX_project\\UE5_RPG_VFX\\Source\\UE5_RPG_VFX\\UE5_RPG_VFX.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\VFX_project\\UE5_RPG_VFX\\.vscode\\compileCommands_UE5_RPG_VFX\\UE5_RPG_VFX.261.rsp"
+		],
+		"directory": "E:\\UE Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\VFX_project\\UE5_RPG_VFX\\Source\\UE5_RPG_VFX\\UE5_RPG_VFX.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\VFX_project\\UE5_RPG_VFX\\.vscode\\compileCommands_UE5_RPG_VFX\\UE5_RPG_VFX.261.rsp"
+		],
+		"directory": "E:\\UE Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\VFX_project\\UE5_RPG_VFX\\Source\\UE5_RPG_VFX\\UE5_RPG_VFX.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\VFX_project\\UE5_RPG_VFX\\.vscode\\compileCommands_UE5_RPG_VFX\\UE5_RPG_VFX.261.rsp"
+		],
+		"directory": "E:\\UE Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\VFX_project\\UE5_RPG_VFX\\Source\\UE5_RPG_VFX\\UE5_RPG_VFXGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\VFX_project\\UE5_RPG_VFX\\.vscode\\compileCommands_UE5_RPG_VFX\\UE5_RPG_VFX.261.rsp"
+		],
+		"directory": "E:\\UE Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "E:\\VFX_project\\UE5_RPG_VFX\\Source\\UE5_RPG_VFX\\UE5_RPG_VFXGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\VFX_project\\UE5_RPG_VFX\\.vscode\\compileCommands_UE5_RPG_VFX\\UE5_RPG_VFX.261.rsp"
+		],
+		"directory": "E:\\UE Games\\UE_5.2\\Engine\\Source"
+	}
+]
