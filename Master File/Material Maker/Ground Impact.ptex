@@ -1,0 +1,285 @@
+{
+	"connections": [
+		{
+			"from": "voronoi2",
+			"from_port": 0,
+			"to": "circle_map",
+			"to_port": 0
+		},
+		{
+			"from": "circle_map",
+			"from_port": 0,
+			"to": "gaussian_blur",
+			"to_port": 0
+		},
+		{
+			"from": "gaussian_blur",
+			"from_port": 0,
+			"to": "shape",
+			"to_port": 0
+		},
+		{
+			"from": "perlin",
+			"from_port": 0,
+			"to": "circle_map_2",
+			"to_port": 0
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "blend2_2",
+			"to_port": 1
+		},
+		{
+			"from": "blend2",
+			"from_port": 0,
+			"to": "math",
+			"to_port": 0
+		},
+		{
+			"from": "math",
+			"from_port": 0,
+			"to": "blend2_2",
+			"to_port": 0
+		},
+		{
+			"from": "circle_map_2",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 0
+		},
+		{
+			"from": "radial_gradient",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 1
+		},
+		{
+			"from": "blend2_2",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 0
+		},
+		{
+			"from": "blend2_2",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 7
+		}
+	],
+	"label": "Graph",
+	"longdesc": "",
+	"name": "@@322",
+	"node_position": {
+		"x": 0,
+		"y": 0
+	},
+	"nodes": [
+		{
+			"export_last_target": "Unity/3D",
+			"export_paths": {
+				"Unity/3D": "D:/_WIP/OpenSource/VFX_project/U3D_RPG_VFX/Assets/Textures/GroundImpact02"
+			},
+			"name": "Material",
+			"node_position": {
+				"x": 500,
+				"y": 120
+			},
+			"parameters": {
+				"albedo_color": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"ao": 1,
+				"depth_scale": 0.5,
+				"emission_energy": 1,
+				"flags_transparent": true,
+				"metallic": 0,
+				"normal": 1,
+				"roughness": 1,
+				"size": 11,
+				"sss": 1
+			},
+			"seed_int": 0,
+			"type": "material"
+		},
+		{
+			"name": "voronoi2",
+			"node_position": {
+				"x": -1040,
+				"y": -60
+			},
+			"parameters": {
+				"intensity": 1.38,
+				"randomness": 1,
+				"scale_x": 32,
+				"scale_y": 4,
+				"stretch_x": 1,
+				"stretch_y": 1
+			},
+			"seed_int": 0,
+			"type": "voronoi2"
+		},
+		{
+			"name": "circle_map",
+			"node_position": {
+				"x": -720,
+				"y": -60
+			},
+			"parameters": {
+				"radius": 1,
+				"repeat": 1
+			},
+			"seed_int": 0,
+			"type": "circle_map"
+		},
+		{
+			"name": "shape",
+			"node_position": {
+				"x": -140,
+				"y": -100
+			},
+			"parameters": {
+				"edge": 0.76,
+				"radius": 1.06,
+				"shape": 0,
+				"sides": 2
+			},
+			"seed_int": 0,
+			"type": "shape"
+		},
+		{
+			"name": "gaussian_blur",
+			"node_position": {
+				"x": -460,
+				"y": -60
+			},
+			"parameters": {
+				"param0": 11,
+				"param1": 48.099998,
+				"param2": 0
+			},
+			"seed_int": 0,
+			"type": "gaussian_blur"
+		},
+		{
+			"name": "perlin",
+			"node_position": {
+				"x": -940,
+				"y": 140
+			},
+			"parameters": {
+				"iterations": 8,
+				"persistence": 0.5,
+				"scale_x": 19,
+				"scale_y": 1
+			},
+			"seed_int": 0,
+			"type": "perlin"
+		},
+		{
+			"name": "circle_map_2",
+			"node_position": {
+				"x": -680,
+				"y": 140
+			},
+			"parameters": {
+				"radius": 1,
+				"repeat": 2
+			},
+			"seed_int": 0,
+			"type": "circle_map"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2",
+			"node_position": {
+				"x": -460,
+				"y": 140
+			},
+			"parameters": {
+				"amount1": 1,
+				"blend_type1": 2
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "radial_gradient",
+			"node_position": {
+				"x": -680,
+				"y": 240
+			},
+			"parameters": {
+				"gradient": {
+					"interpolation": 2,
+					"points": [
+						{
+							"a": 1,
+							"b": 0,
+							"g": 0,
+							"pos": 0,
+							"r": 0
+						},
+						{
+							"a": 1,
+							"b": 1,
+							"g": 1,
+							"pos": 0.312893,
+							"r": 1
+						},
+						{
+							"a": 1,
+							"b": 0,
+							"g": 0,
+							"pos": 0.611964,
+							"r": 0
+						}
+					],
+					"type": "Gradient"
+				},
+				"repeat": 1
+			},
+			"seed_int": 0,
+			"type": "radial_gradient"
+		},
+		{
+			"generic_size": 1,
+			"name": "blend2_2",
+			"node_position": {
+				"x": 160,
+				"y": 120
+			},
+			"parameters": {
+				"amount1": 0.9,
+				"blend_type1": 2
+			},
+			"seed_int": 0,
+			"type": "blend2"
+		},
+		{
+			"name": "math",
+			"node_position": {
+				"x": -200,
+				"y": 120
+			},
+			"parameters": {
+				"clamp": false,
+				"default_in1": 0,
+				"default_in2": 1.75,
+				"op": 6
+			},
+			"seed_int": 0,
+			"type": "math"
+		}
+	],
+	"parameters": {
+
+	},
+	"seed_int": 0,
+	"shortdesc": "",
+	"type": "graph"
+}
