@@ -81,7 +81,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.8781485, g: 3.2958753, b: 11.181761, a: 1}
+    - _Color: {r: 0.66551226, g: 2.5289466, b: 8.47419, a: 1}
     - _Distortion_Speed: {r: 1, g: 1, b: 0, a: 0}
     - _Distortion_Tiling: {r: 0, g: 0, b: 0, a: 0}
     - _Speed: {r: 0, g: -1, b: 0, a: 0}

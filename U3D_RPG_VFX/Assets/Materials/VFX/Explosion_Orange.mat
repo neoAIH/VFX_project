@@ -89,7 +89,7 @@ Material:
     - _Surface: 0
     - _VertexAmount: 0.2
     - _VertexScale: 30
-    - _VoronoiScale: 0.1
+    - _VoronoiScale: 1
     - _VoronoiSpeed: 5
     - _WorkflowMode: 1
     - _ZTest: 4
@@ -98,7 +98,7 @@ Material:
     m_Colors:
     - _Color: {r: 4.3039036, g: 21.327425, b: 51.377857, a: 1}
     - _Emission: {r: 0, g: 0.035019193, b: 0.101960786, a: 0}
-    - _NoiseScale: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _NoiseScale: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseSpeed: {r: -0.1, g: 0, b: 0, a: 0}
     - _Noise_Speed: {r: 0.2, g: 0, b: 0, a: 0}
     - _Noise_scale: {r: 1, g: 1, b: 0, a: 0}
