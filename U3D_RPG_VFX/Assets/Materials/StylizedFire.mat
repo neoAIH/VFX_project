@@ -68,7 +68,7 @@ Material:
     - _Distortion_Scale: 10
     - _Distortion_amount: 0.09
     - _DstBlend: 1
-    - _Power: 5
+    - _Power: 6
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Soft_Particle: 1
@@ -81,7 +81,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.66551226, g: 2.5289466, b: 8.47419, a: 1}
+    - _Color: {r: 11.257269, g: 3.5098937, b: 0, a: 1}
     - _Distortion_Speed: {r: 1, g: 1, b: 0, a: 0}
     - _Distortion_Tiling: {r: 0, g: 0, b: 0, a: 0}
     - _Speed: {r: 0, g: -1, b: 0, a: 0}
